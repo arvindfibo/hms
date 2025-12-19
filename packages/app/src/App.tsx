@@ -1,6 +1,7 @@
 // SPDX-FileCopyrightText: Copyright Orangebot, Inc. and Medplum contributors
 // SPDX-License-Identifier: Apache-2.0
 import { Space } from '@mantine/core';
+import type { WithId } from '@medplum/core';
 import { MEDPLUM_VERSION } from '@medplum/core';
 import type { UserConfiguration } from '@medplum/fhirtypes';
 import type { NavbarMenu } from '@medplum/react';
@@ -45,7 +46,7 @@ export function App(): JSX.Element {
       pathname={location.pathname}
       searchParams={searchParams}
       version={MEDPLUM_VERSION}
-      menus={userConfigToMenu(config)}
+      menus={userConfigToMenu(config as WithId<UserConfiguration> | undefined)}
       displayAddBookmark={!!config?.id}
     >
       <Suspense fallback={<Loading />}>
@@ -56,16 +57,20 @@ export function App(): JSX.Element {
 }
 
 function userConfigToMenu(config: UserConfiguration | undefined): NavbarMenu[] {
+  const adminMenuTitles = ['Admin', 'Super Admin'];
+
   const result =
-    config?.menu?.map((menu) => ({
-      title: menu.title,
-      links:
-        menu.link?.map((link) => ({
-          label: link.name,
-          href: link.target as string,
-          icon: getIcon(link.target as string),
-        })) || [],
-    })) || [];
+    config?.menu
+      ?.filter((menu) => !adminMenuTitles.includes(menu.title || ''))
+      .map((menu) => ({
+        title: menu.title,
+        links:
+          menu.link?.map((link) => ({
+            label: link.name,
+            href: link.target as string,
+            icon: getIcon(link.target as string),
+          })) || [],
+      })) || [];
 
   result.push({
     title: 'Settings',
