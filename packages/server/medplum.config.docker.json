@@ -1,0 +1,32 @@
+{
+  "port": 8103,
+  "baseUrl": "http://localhost:8103/",
+  "appBaseUrl": "http://localhost:3000/",
+  "supportEmail": "\"Synthhms\" <support@synthhms.com>",
+  "signingKeyId": "synthhms-local-key",
+  "signingKey": "-----BEGIN PRIVATE KEY-----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-----END PRIVATE KEY-----",
+  "signingKeyPassphrase": "",
+  "googleClientId": "",
+  "googleClientSecret": "",
+  "maxJsonSize": "1mb",
+  "maxBatchSize": "50mb",
+  "recaptchaSiteKey": "",
+  "recaptchaSecretKey": "",
+  "botLambdaRoleArn": "",
+  "allowedOrigins": "*",
+  "introspectionEnabled": true,
+  "registerEnabled": true,
+  "database": {
+    "host": "postgres",
+    "port": 5432,
+    "dbname": "synthhms",
+    "username": "admin",
+    "password": "abcdEF@12"
+  },
+  "redis": {
+    "host": "redis",
+    "port": 6379,
+    "password": "medplum"
+  },
+  "binaryStorage": "file:binary"
+}

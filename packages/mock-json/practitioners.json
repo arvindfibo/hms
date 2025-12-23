@@ -1,13 +1,13 @@
 [
   {
     "resourceType": "Practitioner",
-    "id": "52ea772c-995e-4557-bbd6-c57cc8d0ee02",
+    "id": "6716e427-2d75-4238-a100-3773f2ce4c74",
     "name": [
       {
         "use": "official",
-        "family": "Kumar",
+        "family": "Joshi",
         "given": [
-          "Rajesh"
+          "Arjun"
         ],
         "prefix": [
           "Dr."
@@ -25,7 +25,7 @@
     "address": [
       {
         "line": [
-          "200 Doctor Street"
+          "892 Medical Plaza"
         ],
         "city": "Delhi",
         "state": "Delhi",
@@ -36,12 +36,586 @@
     "telecom": [
       {
         "system": "phone",
-        "value": "+91-98765-43210",
+        "value": "+91-96081-67537",
         "use": "work"
       },
       {
         "system": "email",
-        "value": "rajesh.kumar@citycarehospital.com",
+        "value": "arjun.joshi@citycarehospital.com",
+        "use": "work"
+      }
+    ],
+    "qualification": [
+      {
+        "code": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v2-0360",
+              "code": "MD",
+              "display": "Doctor of Medicine"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/qualification-specialty",
+            "valueString": "Pulmonology"
+          }
+        ]
+      }
+    ],
+    "communication": [
+      {
+        "coding": [
+          {
+            "system": "urn:ietf:bcp:47",
+            "code": "en",
+            "display": "English"
+          },
+          {
+            "system": "urn:ietf:bcp:47",
+            "code": "hi",
+            "display": "Hindi"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "Practitioner",
+    "id": "948ba7c8-0934-4909-b2d5-7b53bd7e6d56",
+    "name": [
+      {
+        "use": "official",
+        "family": "Malhotra",
+        "given": [
+          "Kavita"
+        ],
+        "prefix": [
+          "Dr."
+        ]
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://medical-council.example.com",
+        "value": "MC-0002"
+      }
+    ],
+    "active": true,
+    "gender": "female",
+    "address": [
+      {
+        "line": [
+          "345 Medical Plaza"
+        ],
+        "city": "Delhi",
+        "state": "Delhi",
+        "postalCode": "110001",
+        "country": "IN"
+      }
+    ],
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "+91-79517-56555",
+        "use": "work"
+      },
+      {
+        "system": "email",
+        "value": "kavita.malhotra@citycarehospital.com",
+        "use": "work"
+      }
+    ],
+    "qualification": [
+      {
+        "code": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v2-0360",
+              "code": "MD",
+              "display": "Doctor of Medicine"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/qualification-specialty",
+            "valueString": "Internal Medicine"
+          }
+        ]
+      }
+    ],
+    "communication": [
+      {
+        "coding": [
+          {
+            "system": "urn:ietf:bcp:47",
+            "code": "en",
+            "display": "English"
+          },
+          {
+            "system": "urn:ietf:bcp:47",
+            "code": "hi",
+            "display": "Hindi"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "Practitioner",
+    "id": "f51d021d-b293-4590-844b-76dc203745d1",
+    "name": [
+      {
+        "use": "official",
+        "family": "Patel",
+        "given": [
+          "Suresh"
+        ],
+        "prefix": [
+          "NP"
+        ]
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://medical-council.example.com",
+        "value": "MC-0003"
+      }
+    ],
+    "active": true,
+    "gender": "male",
+    "address": [
+      {
+        "line": [
+          "818 Medical Plaza"
+        ],
+        "city": "Delhi",
+        "state": "Delhi",
+        "postalCode": "110001",
+        "country": "IN"
+      }
+    ],
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "+91-82570-38765",
+        "use": "work"
+      },
+      {
+        "system": "email",
+        "value": "suresh.patel@citycarehospital.com",
+        "use": "work"
+      }
+    ],
+    "qualification": [
+      {
+        "code": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v2-0360",
+              "code": "NP",
+              "display": "Nurse Practitioner"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/qualification-specialty",
+            "valueString": "Family Practice"
+          }
+        ]
+      }
+    ],
+    "communication": [
+      {
+        "coding": [
+          {
+            "system": "urn:ietf:bcp:47",
+            "code": "en",
+            "display": "English"
+          },
+          {
+            "system": "urn:ietf:bcp:47",
+            "code": "hi",
+            "display": "Hindi"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "Practitioner",
+    "id": "a73a85bd-1c74-445e-96e1-d2bb9a2afe52",
+    "name": [
+      {
+        "use": "official",
+        "family": "Kumar",
+        "given": [
+          "Aanya"
+        ],
+        "prefix": [
+          "Dr."
+        ]
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://medical-council.example.com",
+        "value": "MC-0004"
+      }
+    ],
+    "active": true,
+    "gender": "female",
+    "address": [
+      {
+        "line": [
+          "628 Medical Plaza"
+        ],
+        "city": "Delhi",
+        "state": "Delhi",
+        "postalCode": "110001",
+        "country": "IN"
+      }
+    ],
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "+91-95161-85035",
+        "use": "work"
+      },
+      {
+        "system": "email",
+        "value": "aanya.kumar@citycarehospital.com",
+        "use": "work"
+      }
+    ],
+    "qualification": [
+      {
+        "code": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v2-0360",
+              "code": "MD",
+              "display": "Doctor of Medicine"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/qualification-specialty",
+            "valueString": "Endocrinology"
+          }
+        ]
+      }
+    ],
+    "communication": [
+      {
+        "coding": [
+          {
+            "system": "urn:ietf:bcp:47",
+            "code": "en",
+            "display": "English"
+          },
+          {
+            "system": "urn:ietf:bcp:47",
+            "code": "hi",
+            "display": "Hindi"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "Practitioner",
+    "id": "ef8a275c-0328-4574-afe0-726f12797e38",
+    "name": [
+      {
+        "use": "official",
+        "family": "Sharma",
+        "given": [
+          "Varun"
+        ],
+        "prefix": [
+          "Dr."
+        ]
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://medical-council.example.com",
+        "value": "MC-0005"
+      }
+    ],
+    "active": true,
+    "gender": "male",
+    "address": [
+      {
+        "line": [
+          "819 Medical Plaza"
+        ],
+        "city": "Delhi",
+        "state": "Delhi",
+        "postalCode": "110001",
+        "country": "IN"
+      }
+    ],
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "+91-87338-91955",
+        "use": "work"
+      },
+      {
+        "system": "email",
+        "value": "varun.sharma@citycarehospital.com",
+        "use": "work"
+      }
+    ],
+    "qualification": [
+      {
+        "code": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v2-0360",
+              "code": "MD",
+              "display": "Doctor of Medicine"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/qualification-specialty",
+            "valueString": "Psychiatry"
+          }
+        ]
+      }
+    ],
+    "communication": [
+      {
+        "coding": [
+          {
+            "system": "urn:ietf:bcp:47",
+            "code": "en",
+            "display": "English"
+          },
+          {
+            "system": "urn:ietf:bcp:47",
+            "code": "hi",
+            "display": "Hindi"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "Practitioner",
+    "id": "415113f8-f20e-465f-89d6-994d52991b57",
+    "name": [
+      {
+        "use": "official",
+        "family": "Nair",
+        "given": [
+          "Arjun"
+        ],
+        "prefix": [
+          "Dr."
+        ]
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://medical-council.example.com",
+        "value": "MC-0006"
+      }
+    ],
+    "active": true,
+    "gender": "male",
+    "address": [
+      {
+        "line": [
+          "555 Medical Plaza"
+        ],
+        "city": "Delhi",
+        "state": "Delhi",
+        "postalCode": "110001",
+        "country": "IN"
+      }
+    ],
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "+91-76873-32829",
+        "use": "work"
+      },
+      {
+        "system": "email",
+        "value": "arjun.nair@citycarehospital.com",
+        "use": "work"
+      }
+    ],
+    "qualification": [
+      {
+        "code": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v2-0360",
+              "code": "MD",
+              "display": "Doctor of Medicine"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/qualification-specialty",
+            "valueString": "Cardiology"
+          }
+        ]
+      }
+    ],
+    "communication": [
+      {
+        "coding": [
+          {
+            "system": "urn:ietf:bcp:47",
+            "code": "en",
+            "display": "English"
+          },
+          {
+            "system": "urn:ietf:bcp:47",
+            "code": "hi",
+            "display": "Hindi"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "Practitioner",
+    "id": "03708371-fc71-4143-a217-53da263e51cf",
+    "name": [
+      {
+        "use": "official",
+        "family": "Singh",
+        "given": [
+          "Vikram"
+        ],
+        "prefix": [
+          "Dr."
+        ]
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://medical-council.example.com",
+        "value": "MC-0007"
+      }
+    ],
+    "active": true,
+    "gender": "male",
+    "address": [
+      {
+        "line": [
+          "844 Medical Plaza"
+        ],
+        "city": "Delhi",
+        "state": "Delhi",
+        "postalCode": "110001",
+        "country": "IN"
+      }
+    ],
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "+91-72524-26686",
+        "use": "work"
+      },
+      {
+        "system": "email",
+        "value": "vikram.singh@citycarehospital.com",
+        "use": "work"
+      }
+    ],
+    "qualification": [
+      {
+        "code": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v2-0360",
+              "code": "MD",
+              "display": "Doctor of Medicine"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/qualification-specialty",
+            "valueString": "Pediatrics"
+          }
+        ]
+      }
+    ],
+    "communication": [
+      {
+        "coding": [
+          {
+            "system": "urn:ietf:bcp:47",
+            "code": "en",
+            "display": "English"
+          },
+          {
+            "system": "urn:ietf:bcp:47",
+            "code": "hi",
+            "display": "Hindi"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "Practitioner",
+    "id": "45d18ae1-4dbf-4854-bd15-c231f735063f",
+    "name": [
+      {
+        "use": "official",
+        "family": "Patel",
+        "given": [
+          "Sara"
+        ],
+        "prefix": [
+          "Dr."
+        ]
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://medical-council.example.com",
+        "value": "MC-0008"
+      }
+    ],
+    "active": true,
+    "gender": "female",
+    "address": [
+      {
+        "line": [
+          "908 Medical Plaza"
+        ],
+        "city": "Delhi",
+        "state": "Delhi",
+        "postalCode": "110001",
+        "country": "IN"
+      }
+    ],
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "+91-70447-40542",
+        "use": "work"
+      },
+      {
+        "system": "email",
+        "value": "sara.patel@citycarehospital.com",
         "use": "work"
       }
     ],
@@ -83,13 +657,13 @@
   },
   {
     "resourceType": "Practitioner",
-    "id": "0533bcc6-9464-4bfd-81cb-352b4fe90b0d",
+    "id": "c07315da-6ad6-4146-958a-1f15d5b6e605",
     "name": [
       {
         "use": "official",
-        "family": "Sharma",
+        "family": "Verma",
         "given": [
-          "Priya"
+          "Rajesh"
         ],
         "prefix": [
           "Dr."
@@ -99,15 +673,15 @@
     "identifier": [
       {
         "system": "http://medical-council.example.com",
-        "value": "MC-0002"
+        "value": "MC-0009"
       }
     ],
     "active": true,
-    "gender": "female",
+    "gender": "male",
     "address": [
       {
         "line": [
-          "201 Doctor Street"
+          "485 Medical Plaza"
         ],
         "city": "Delhi",
         "state": "Delhi",
@@ -118,12 +692,750 @@
     "telecom": [
       {
         "system": "phone",
-        "value": "+91-98765-43211",
+        "value": "+91-92494-14730",
         "use": "work"
       },
       {
         "system": "email",
-        "value": "priya.sharma@citycarehospital.com",
+        "value": "rajesh.verma@citycarehospital.com",
+        "use": "work"
+      }
+    ],
+    "qualification": [
+      {
+        "code": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v2-0360",
+              "code": "MD",
+              "display": "Doctor of Medicine"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/qualification-specialty",
+            "valueString": "Pulmonology"
+          }
+        ]
+      }
+    ],
+    "communication": [
+      {
+        "coding": [
+          {
+            "system": "urn:ietf:bcp:47",
+            "code": "en",
+            "display": "English"
+          },
+          {
+            "system": "urn:ietf:bcp:47",
+            "code": "hi",
+            "display": "Hindi"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "Practitioner",
+    "id": "6bd48b23-30b7-4b59-aa05-7c3ecd5ac83e",
+    "name": [
+      {
+        "use": "official",
+        "family": "Nair",
+        "given": [
+          "Rajesh"
+        ],
+        "prefix": [
+          "Dr."
+        ]
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://medical-council.example.com",
+        "value": "MC-0010"
+      }
+    ],
+    "active": true,
+    "gender": "male",
+    "address": [
+      {
+        "line": [
+          "388 Medical Plaza"
+        ],
+        "city": "Delhi",
+        "state": "Delhi",
+        "postalCode": "110001",
+        "country": "IN"
+      }
+    ],
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "+91-82024-48836",
+        "use": "work"
+      },
+      {
+        "system": "email",
+        "value": "rajesh.nair@citycarehospital.com",
+        "use": "work"
+      }
+    ],
+    "qualification": [
+      {
+        "code": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v2-0360",
+              "code": "MD",
+              "display": "Doctor of Medicine"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/qualification-specialty",
+            "valueString": "General Practice"
+          }
+        ]
+      }
+    ],
+    "communication": [
+      {
+        "coding": [
+          {
+            "system": "urn:ietf:bcp:47",
+            "code": "en",
+            "display": "English"
+          },
+          {
+            "system": "urn:ietf:bcp:47",
+            "code": "hi",
+            "display": "Hindi"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "Practitioner",
+    "id": "37a67a0c-9b0b-4dbf-baed-fa4fd556e7fb",
+    "name": [
+      {
+        "use": "official",
+        "family": "Malhotra",
+        "given": [
+          "Prateek"
+        ],
+        "prefix": [
+          "Dr."
+        ]
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://medical-council.example.com",
+        "value": "MC-0011"
+      }
+    ],
+    "active": true,
+    "gender": "male",
+    "address": [
+      {
+        "line": [
+          "898 Medical Plaza"
+        ],
+        "city": "Delhi",
+        "state": "Delhi",
+        "postalCode": "110001",
+        "country": "IN"
+      }
+    ],
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "+91-85573-62212",
+        "use": "work"
+      },
+      {
+        "system": "email",
+        "value": "prateek.malhotra@citycarehospital.com",
+        "use": "work"
+      }
+    ],
+    "qualification": [
+      {
+        "code": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v2-0360",
+              "code": "MD",
+              "display": "Doctor of Medicine"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/qualification-specialty",
+            "valueString": "Internal Medicine"
+          }
+        ]
+      }
+    ],
+    "communication": [
+      {
+        "coding": [
+          {
+            "system": "urn:ietf:bcp:47",
+            "code": "en",
+            "display": "English"
+          },
+          {
+            "system": "urn:ietf:bcp:47",
+            "code": "hi",
+            "display": "Hindi"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "Practitioner",
+    "id": "eb7cfafc-e104-495b-bfc9-dc0dcd5d3268",
+    "name": [
+      {
+        "use": "official",
+        "family": "Singh",
+        "given": [
+          "Kavita"
+        ],
+        "prefix": [
+          "Dr."
+        ]
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://medical-council.example.com",
+        "value": "MC-0012"
+      }
+    ],
+    "active": true,
+    "gender": "female",
+    "address": [
+      {
+        "line": [
+          "638 Medical Plaza"
+        ],
+        "city": "Delhi",
+        "state": "Delhi",
+        "postalCode": "110001",
+        "country": "IN"
+      }
+    ],
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "+91-87932-82684",
+        "use": "work"
+      },
+      {
+        "system": "email",
+        "value": "kavita.singh@citycarehospital.com",
+        "use": "work"
+      }
+    ],
+    "qualification": [
+      {
+        "code": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v2-0360",
+              "code": "MD",
+              "display": "Doctor of Medicine"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/qualification-specialty",
+            "valueString": "Neurology"
+          }
+        ]
+      }
+    ],
+    "communication": [
+      {
+        "coding": [
+          {
+            "system": "urn:ietf:bcp:47",
+            "code": "en",
+            "display": "English"
+          },
+          {
+            "system": "urn:ietf:bcp:47",
+            "code": "hi",
+            "display": "Hindi"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "Practitioner",
+    "id": "a7524fcb-9556-4d70-ba39-db9383c68aa2",
+    "name": [
+      {
+        "use": "official",
+        "family": "Verma",
+        "given": [
+          "Amit"
+        ],
+        "prefix": [
+          "Dr."
+        ]
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://medical-council.example.com",
+        "value": "MC-0013"
+      }
+    ],
+    "active": true,
+    "gender": "male",
+    "address": [
+      {
+        "line": [
+          "463 Medical Plaza"
+        ],
+        "city": "Delhi",
+        "state": "Delhi",
+        "postalCode": "110001",
+        "country": "IN"
+      }
+    ],
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "+91-87618-97562",
+        "use": "work"
+      },
+      {
+        "system": "email",
+        "value": "amit.verma@citycarehospital.com",
+        "use": "work"
+      }
+    ],
+    "qualification": [
+      {
+        "code": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v2-0360",
+              "code": "MD",
+              "display": "Doctor of Medicine"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/qualification-specialty",
+            "valueString": "Dermatology"
+          }
+        ]
+      }
+    ],
+    "communication": [
+      {
+        "coding": [
+          {
+            "system": "urn:ietf:bcp:47",
+            "code": "en",
+            "display": "English"
+          },
+          {
+            "system": "urn:ietf:bcp:47",
+            "code": "hi",
+            "display": "Hindi"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "Practitioner",
+    "id": "3972afa1-0b07-48e8-9638-4b73d699c275",
+    "name": [
+      {
+        "use": "official",
+        "family": "Malhotra",
+        "given": [
+          "Prateek"
+        ],
+        "prefix": [
+          "Dr."
+        ]
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://medical-council.example.com",
+        "value": "MC-0014"
+      }
+    ],
+    "active": true,
+    "gender": "male",
+    "address": [
+      {
+        "line": [
+          "951 Medical Plaza"
+        ],
+        "city": "Delhi",
+        "state": "Delhi",
+        "postalCode": "110001",
+        "country": "IN"
+      }
+    ],
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "+91-71550-41064",
+        "use": "work"
+      },
+      {
+        "system": "email",
+        "value": "prateek.malhotra@citycarehospital.com",
+        "use": "work"
+      }
+    ],
+    "qualification": [
+      {
+        "code": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v2-0360",
+              "code": "MD",
+              "display": "Doctor of Medicine"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/qualification-specialty",
+            "valueString": "Dermatology"
+          }
+        ]
+      }
+    ],
+    "communication": [
+      {
+        "coding": [
+          {
+            "system": "urn:ietf:bcp:47",
+            "code": "en",
+            "display": "English"
+          },
+          {
+            "system": "urn:ietf:bcp:47",
+            "code": "hi",
+            "display": "Hindi"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "Practitioner",
+    "id": "a74fea4f-5e08-4135-a08f-35db054cbf51",
+    "name": [
+      {
+        "use": "official",
+        "family": "Rao",
+        "given": [
+          "Kavita"
+        ],
+        "prefix": [
+          "Dr."
+        ]
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://medical-council.example.com",
+        "value": "MC-0015"
+      }
+    ],
+    "active": true,
+    "gender": "female",
+    "address": [
+      {
+        "line": [
+          "741 Medical Plaza"
+        ],
+        "city": "Delhi",
+        "state": "Delhi",
+        "postalCode": "110001",
+        "country": "IN"
+      }
+    ],
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "+91-99475-33439",
+        "use": "work"
+      },
+      {
+        "system": "email",
+        "value": "kavita.rao@citycarehospital.com",
+        "use": "work"
+      }
+    ],
+    "qualification": [
+      {
+        "code": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v2-0360",
+              "code": "MD",
+              "display": "Doctor of Medicine"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/qualification-specialty",
+            "valueString": "Pulmonology"
+          }
+        ]
+      }
+    ],
+    "communication": [
+      {
+        "coding": [
+          {
+            "system": "urn:ietf:bcp:47",
+            "code": "en",
+            "display": "English"
+          },
+          {
+            "system": "urn:ietf:bcp:47",
+            "code": "hi",
+            "display": "Hindi"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "Practitioner",
+    "id": "e579ed34-90d8-4659-8527-f28e237edcb6",
+    "name": [
+      {
+        "use": "official",
+        "family": "Nair",
+        "given": [
+          "Rahul"
+        ],
+        "prefix": [
+          "Dr."
+        ]
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://medical-council.example.com",
+        "value": "MC-0016"
+      }
+    ],
+    "active": true,
+    "gender": "male",
+    "address": [
+      {
+        "line": [
+          "895 Medical Plaza"
+        ],
+        "city": "Delhi",
+        "state": "Delhi",
+        "postalCode": "110001",
+        "country": "IN"
+      }
+    ],
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "+91-72767-57529",
+        "use": "work"
+      },
+      {
+        "system": "email",
+        "value": "rahul.nair@citycarehospital.com",
+        "use": "work"
+      }
+    ],
+    "qualification": [
+      {
+        "code": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v2-0360",
+              "code": "MD",
+              "display": "Doctor of Medicine"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/qualification-specialty",
+            "valueString": "Neurology"
+          }
+        ]
+      }
+    ],
+    "communication": [
+      {
+        "coding": [
+          {
+            "system": "urn:ietf:bcp:47",
+            "code": "en",
+            "display": "English"
+          },
+          {
+            "system": "urn:ietf:bcp:47",
+            "code": "hi",
+            "display": "Hindi"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "Practitioner",
+    "id": "5be2ebf0-54b7-454f-b191-2d6358e3dffb",
+    "name": [
+      {
+        "use": "official",
+        "family": "Kumar",
+        "given": [
+          "Riya"
+        ],
+        "prefix": [
+          "Dr."
+        ]
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://medical-council.example.com",
+        "value": "MC-0017"
+      }
+    ],
+    "active": true,
+    "gender": "female",
+    "address": [
+      {
+        "line": [
+          "254 Medical Plaza"
+        ],
+        "city": "Delhi",
+        "state": "Delhi",
+        "postalCode": "110001",
+        "country": "IN"
+      }
+    ],
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "+91-85986-28568",
+        "use": "work"
+      },
+      {
+        "system": "email",
+        "value": "riya.kumar@citycarehospital.com",
+        "use": "work"
+      }
+    ],
+    "qualification": [
+      {
+        "code": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v2-0360",
+              "code": "MD",
+              "display": "Doctor of Medicine"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/qualification-specialty",
+            "valueString": "Pulmonology"
+          }
+        ]
+      }
+    ],
+    "communication": [
+      {
+        "coding": [
+          {
+            "system": "urn:ietf:bcp:47",
+            "code": "en",
+            "display": "English"
+          },
+          {
+            "system": "urn:ietf:bcp:47",
+            "code": "hi",
+            "display": "Hindi"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "Practitioner",
+    "id": "7551c989-9465-4328-9f60-e1c76671b247",
+    "name": [
+      {
+        "use": "official",
+        "family": "Gupta",
+        "given": [
+          "Ankit"
+        ],
+        "prefix": [
+          "Nurse"
+        ]
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://medical-council.example.com",
+        "value": "MC-0018"
+      }
+    ],
+    "active": true,
+    "gender": "male",
+    "address": [
+      {
+        "line": [
+          "907 Medical Plaza"
+        ],
+        "city": "Delhi",
+        "state": "Delhi",
+        "postalCode": "110001",
+        "country": "IN"
+      }
+    ],
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "+91-94112-78429",
+        "use": "work"
+      },
+      {
+        "system": "email",
+        "value": "ankit.gupta@citycarehospital.com",
         "use": "work"
       }
     ],
@@ -165,13 +1477,13 @@
   },
   {
     "resourceType": "Practitioner",
-    "id": "a76a456a-2c10-4425-bb9c-1a9ca5e0d66d",
+    "id": "81c28517-fbb4-463e-a0ea-7ee03be7c49f",
     "name": [
       {
         "use": "official",
-        "family": "Patel",
+        "family": "Reddy",
         "given": [
-          "Amit"
+          "Rohan"
         ],
         "prefix": [
           "Dr."
@@ -181,7 +1493,7 @@
     "identifier": [
       {
         "system": "http://medical-council.example.com",
-        "value": "MC-0003"
+        "value": "MC-0019"
       }
     ],
     "active": true,
@@ -189,7 +1501,7 @@
     "address": [
       {
         "line": [
-          "202 Doctor Street"
+          "230 Medical Plaza"
         ],
         "city": "Delhi",
         "state": "Delhi",
@@ -200,12 +1512,12 @@
     "telecom": [
       {
         "system": "phone",
-        "value": "+91-98765-43212",
+        "value": "+91-77672-80545",
         "use": "work"
       },
       {
         "system": "email",
-        "value": "amit.patel@citycarehospital.com",
+        "value": "rohan.reddy@citycarehospital.com",
         "use": "work"
       }
     ],
@@ -223,7 +1535,7 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/StructureDefinition/qualification-specialty",
-            "valueString": "Gastroenterology"
+            "valueString": "Dermatology"
           }
         ]
       }
@@ -247,13 +1559,13 @@
   },
   {
     "resourceType": "Practitioner",
-    "id": "2590e786-bc49-41f4-bb8b-32ac9fcb988e",
+    "id": "4718c19c-d800-4339-9803-3634500bdb80",
     "name": [
       {
         "use": "official",
-        "family": "Singh",
+        "family": "Rao",
         "given": [
-          "Sneha"
+          "Prateek"
         ],
         "prefix": [
           "Dr."
@@ -263,19 +1575,31 @@
     "identifier": [
       {
         "system": "http://medical-council.example.com",
-        "value": "MC-0004"
+        "value": "MC-0020"
       }
     ],
     "active": true,
+    "gender": "male",
+    "address": [
+      {
+        "line": [
+          "540 Medical Plaza"
+        ],
+        "city": "Delhi",
+        "state": "Delhi",
+        "postalCode": "110001",
+        "country": "IN"
+      }
+    ],
     "telecom": [
       {
         "system": "phone",
-        "value": "+91-98765-43213",
+        "value": "+91-78602-99848",
         "use": "work"
       },
       {
         "system": "email",
-        "value": "sneha.singh@citycarehospital.com",
+        "value": "prateek.rao@citycarehospital.com",
         "use": "work"
       }
     ],
@@ -293,7 +1617,7 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/StructureDefinition/qualification-specialty",
-            "valueString": "Pediatrics"
+            "valueString": "Cardiology"
           }
         ]
       }
@@ -313,27 +1637,15 @@
           }
         ]
       }
-    ],
-    "gender": "female",
-    "address": [
-      {
-        "line": [
-          "203 Medical Plaza"
-        ],
-        "city": "Delhi",
-        "state": "Delhi",
-        "postalCode": "110001",
-        "country": "IN"
-      }
     ]
   },
   {
     "resourceType": "Practitioner",
-    "id": "9834d5f9-e03a-49a1-8199-18e6e016c7ac",
+    "id": "3497f9cf-3ffd-4c74-a644-0ad595bb6cea",
     "name": [
       {
         "use": "official",
-        "family": "Gupta",
+        "family": "Sharma",
         "given": [
           "Vikram"
         ],
@@ -345,61 +1657,15 @@
     "identifier": [
       {
         "system": "http://medical-council.example.com",
-        "value": "MC-0005"
+        "value": "MC-0021"
       }
     ],
     "active": true,
-    "telecom": [
-      {
-        "system": "phone",
-        "value": "+91-98765-43214",
-        "use": "work"
-      },
-      {
-        "system": "email",
-        "value": "vikram.gupta@citycarehospital.com",
-        "use": "work"
-      }
-    ],
-    "qualification": [
-      {
-        "code": {
-          "coding": [
-            {
-              "system": "http://terminology.hl7.org/CodeSystem/v2-0360",
-              "code": "PA",
-              "display": "Physician Assistant"
-            }
-          ]
-        },
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/qualification-specialty",
-            "valueString": "General Practice"
-          }
-        ]
-      }
-    ],
-    "communication": [
-      {
-        "coding": [
-          {
-            "system": "urn:ietf:bcp:47",
-            "code": "en",
-            "display": "English"
-          },
-          {
-            "system": "urn:ietf:bcp:47",
-            "code": "hi",
-            "display": "Hindi"
-          }
-        ]
-      }
-    ],
+    "gender": "male",
     "address": [
       {
         "line": [
-          "204 Doctor Street"
+          "309 Medical Plaza"
         ],
         "city": "Delhi",
         "state": "Delhi",
@@ -407,39 +1673,15 @@
         "country": "IN"
       }
     ],
-    "gender": "male"
-  },
-  {
-    "resourceType": "Practitioner",
-    "id": "8b499f7c-1f2c-413b-8178-bc08bade81bc",
-    "name": [
-      {
-        "use": "official",
-        "family": "Mehta",
-        "given": [
-          "Anjali"
-        ],
-        "prefix": [
-          "Dr."
-        ]
-      }
-    ],
-    "identifier": [
-      {
-        "system": "http://medical-council.example.com",
-        "value": "MC-0006"
-      }
-    ],
-    "active": true,
     "telecom": [
       {
         "system": "phone",
-        "value": "+91-98765-43215",
+        "value": "+91-71409-74526",
         "use": "work"
       },
       {
         "system": "email",
-        "value": "anjali.mehta@citycarehospital.com",
+        "value": "vikram.sharma@citycarehospital.com",
         "use": "work"
       }
     ],
@@ -457,7 +1699,7 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/StructureDefinition/qualification-specialty",
-            "valueString": "Pediatrics"
+            "valueString": "Dermatology"
           }
         ]
       }
@@ -477,29 +1719,99 @@
           }
         ]
       }
+    ]
+  },
+  {
+    "resourceType": "Practitioner",
+    "id": "54761d33-aaff-46d5-add4-be034d7bbc1f",
+    "name": [
+      {
+        "use": "official",
+        "family": "Malhotra",
+        "given": [
+          "Prateek"
+        ],
+        "prefix": [
+          "Nurse"
+        ]
+      }
     ],
+    "identifier": [
+      {
+        "system": "http://medical-council.example.com",
+        "value": "MC-0022"
+      }
+    ],
+    "active": true,
     "gender": "male",
     "address": [
       {
         "line": [
-          "205 Doctor Street"
+          "817 Medical Plaza"
         ],
         "city": "Delhi",
         "state": "Delhi",
         "postalCode": "110001",
         "country": "IN"
       }
+    ],
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "+91-86225-67041",
+        "use": "work"
+      },
+      {
+        "system": "email",
+        "value": "prateek.malhotra@citycarehospital.com",
+        "use": "work"
+      }
+    ],
+    "qualification": [
+      {
+        "code": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v2-0360",
+              "code": "RN",
+              "display": "Registered Nurse"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/qualification-specialty",
+            "valueString": "General Nursing"
+          }
+        ]
+      }
+    ],
+    "communication": [
+      {
+        "coding": [
+          {
+            "system": "urn:ietf:bcp:47",
+            "code": "en",
+            "display": "English"
+          },
+          {
+            "system": "urn:ietf:bcp:47",
+            "code": "hi",
+            "display": "Hindi"
+          }
+        ]
+      }
     ]
   },
   {
     "resourceType": "Practitioner",
-    "id": "835dcaf9-0d5b-4955-bd9b-4233b0692127",
+    "id": "b064c1cf-dc50-4b41-9d1f-a047a2d819e8",
     "name": [
       {
         "use": "official",
-        "family": "Joshi",
+        "family": "Iyer",
         "given": [
-          "Rohit"
+          "Riya"
         ],
         "prefix": [
           "Dr."
@@ -509,19 +1821,195 @@
     "identifier": [
       {
         "system": "http://medical-council.example.com",
-        "value": "MC-0007"
+        "value": "MC-0023"
       }
     ],
     "active": true,
+    "gender": "female",
+    "address": [
+      {
+        "line": [
+          "334 Medical Plaza"
+        ],
+        "city": "Delhi",
+        "state": "Delhi",
+        "postalCode": "110001",
+        "country": "IN"
+      }
+    ],
     "telecom": [
       {
         "system": "phone",
-        "value": "+91-98765-43216",
+        "value": "+91-71532-69185",
         "use": "work"
       },
       {
         "system": "email",
-        "value": "rohit.joshi@citycarehospital.com",
+        "value": "riya.iyer@citycarehospital.com",
+        "use": "work"
+      }
+    ],
+    "qualification": [
+      {
+        "code": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v2-0360",
+              "code": "MD",
+              "display": "Doctor of Medicine"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/qualification-specialty",
+            "valueString": "Neurology"
+          }
+        ]
+      }
+    ],
+    "communication": [
+      {
+        "coding": [
+          {
+            "system": "urn:ietf:bcp:47",
+            "code": "en",
+            "display": "English"
+          },
+          {
+            "system": "urn:ietf:bcp:47",
+            "code": "hi",
+            "display": "Hindi"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "Practitioner",
+    "id": "5e46412d-e1cb-492d-8d91-97f905feb502",
+    "name": [
+      {
+        "use": "official",
+        "family": "Rao",
+        "given": [
+          "Arjun"
+        ],
+        "prefix": [
+          "Dr."
+        ]
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://medical-council.example.com",
+        "value": "MC-0024"
+      }
+    ],
+    "active": true,
+    "gender": "male",
+    "address": [
+      {
+        "line": [
+          "374 Medical Plaza"
+        ],
+        "city": "Delhi",
+        "state": "Delhi",
+        "postalCode": "110001",
+        "country": "IN"
+      }
+    ],
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "+91-70781-52964",
+        "use": "work"
+      },
+      {
+        "system": "email",
+        "value": "arjun.rao@citycarehospital.com",
+        "use": "work"
+      }
+    ],
+    "qualification": [
+      {
+        "code": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v2-0360",
+              "code": "MD",
+              "display": "Doctor of Medicine"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/qualification-specialty",
+            "valueString": "Psychiatry"
+          }
+        ]
+      }
+    ],
+    "communication": [
+      {
+        "coding": [
+          {
+            "system": "urn:ietf:bcp:47",
+            "code": "en",
+            "display": "English"
+          },
+          {
+            "system": "urn:ietf:bcp:47",
+            "code": "hi",
+            "display": "Hindi"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "Practitioner",
+    "id": "b8215c12-341d-42a4-ac10-44867ab70708",
+    "name": [
+      {
+        "use": "official",
+        "family": "Reddy",
+        "given": [
+          "Varun"
+        ],
+        "prefix": [
+          "Dr."
+        ]
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://medical-council.example.com",
+        "value": "MC-0025"
+      }
+    ],
+    "active": true,
+    "gender": "male",
+    "address": [
+      {
+        "line": [
+          "209 Medical Plaza"
+        ],
+        "city": "Delhi",
+        "state": "Delhi",
+        "postalCode": "110001",
+        "country": "IN"
+      }
+    ],
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "+91-70315-39748",
+        "use": "work"
+      },
+      {
+        "system": "email",
+        "value": "varun.reddy@citycarehospital.com",
         "use": "work"
       }
     ],
@@ -559,29 +2047,17 @@
           }
         ]
       }
-    ],
-    "gender": "male",
-    "address": [
-      {
-        "line": [
-          "206 Medical Plaza"
-        ],
-        "city": "Delhi",
-        "state": "Delhi",
-        "postalCode": "110001",
-        "country": "IN"
-      }
     ]
   },
   {
     "resourceType": "Practitioner",
-    "id": "4799454c-3e60-4a4f-8ec4-28ce52cdd247",
+    "id": "8fcc861a-a1b7-47eb-8568-bb031eb59ad8",
     "name": [
       {
         "use": "official",
-        "family": "Reddy",
+        "family": "Iyer",
         "given": [
-          "Kavita"
+          "Shreya"
         ],
         "prefix": [
           "Dr."
@@ -591,19 +2067,31 @@
     "identifier": [
       {
         "system": "http://medical-council.example.com",
-        "value": "MC-0008"
+        "value": "MC-0026"
       }
     ],
     "active": true,
+    "gender": "female",
+    "address": [
+      {
+        "line": [
+          "704 Medical Plaza"
+        ],
+        "city": "Delhi",
+        "state": "Delhi",
+        "postalCode": "110001",
+        "country": "IN"
+      }
+    ],
     "telecom": [
       {
         "system": "phone",
-        "value": "+91-98765-43217",
+        "value": "+91-97149-40618",
         "use": "work"
       },
       {
         "system": "email",
-        "value": "kavita.reddy@citycarehospital.com",
+        "value": "shreya.iyer@citycarehospital.com",
         "use": "work"
       }
     ],
@@ -621,7 +2109,7 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/StructureDefinition/qualification-specialty",
-            "valueString": "General Practice"
+            "valueString": "Oncology"
           }
         ]
       }
@@ -641,290 +2129,235 @@
           }
         ]
       }
+    ]
+  },
+  {
+    "resourceType": "Practitioner",
+    "id": "0382b1f4-d881-4ba8-8de1-d736c08cc126",
+    "name": [
+      {
+        "use": "official",
+        "family": "Kumar",
+        "given": [
+          "Sneha"
+        ],
+        "prefix": [
+          "Dr."
+        ]
+      }
     ],
+    "identifier": [
+      {
+        "system": "http://medical-council.example.com",
+        "value": "MC-0027"
+      }
+    ],
+    "active": true,
     "gender": "female",
     "address": [
       {
         "line": [
-          "207 Doctor Street"
+          "851 Medical Plaza"
         ],
         "city": "Delhi",
         "state": "Delhi",
         "postalCode": "110001",
         "country": "IN"
       }
-    ]
-  },
-  {
-    "resourceType": "Practitioner",
-    "id": "6ec925cb-01e4-4708-830b-b145787adafe",
-    "name": [
-      {
-        "use": "official",
-        "family": "Yadav",
-        "given": [
-          "Sunita"
-        ],
-        "prefix": []
-      }
     ],
-    "identifier": [
-      {
-        "system": "http://medical-council.example.com",
-        "value": "NURSE-0009"
-      }
-    ],
-    "active": true,
     "telecom": [
       {
         "system": "phone",
-        "value": "+91-98765-43218",
+        "value": "+91-99149-95281",
         "use": "work"
       },
       {
         "system": "email",
-        "value": "sunita.yadav@citycarehospital.com",
+        "value": "sneha.kumar@citycarehospital.com",
         "use": "work"
       }
     ],
-    "communication": [
-      {
-        "coding": [
-          {
-            "system": "urn:ietf:bcp:47",
-            "code": "en",
-            "display": "English"
-          },
-          {
-            "system": "urn:ietf:bcp:47",
-            "code": "hi",
-            "display": "Hindi"
-          }
-        ]
-      }
-    ],
-    "gender": "female",
     "qualification": [
       {
         "code": {
           "coding": [
             {
               "system": "http://terminology.hl7.org/CodeSystem/v2-0360",
-              "code": "PA",
-              "display": "Physician Assistant"
+              "code": "MD",
+              "display": "Doctor of Medicine"
             }
           ]
         },
         "extension": [
           {
             "url": "http://hl7.org/fhir/StructureDefinition/qualification-specialty",
-            "valueString": "General Practice"
+            "valueString": "Neurology"
           }
         ]
       }
     ],
+    "communication": [
+      {
+        "coding": [
+          {
+            "system": "urn:ietf:bcp:47",
+            "code": "en",
+            "display": "English"
+          },
+          {
+            "system": "urn:ietf:bcp:47",
+            "code": "hi",
+            "display": "Hindi"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "resourceType": "Practitioner",
+    "id": "101746b1-0eaa-41f0-a750-35de0c881415",
+    "name": [
+      {
+        "use": "official",
+        "family": "Malhotra",
+        "given": [
+          "Isha"
+        ],
+        "prefix": [
+          "Dr."
+        ]
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://medical-council.example.com",
+        "value": "MC-0028"
+      }
+    ],
+    "active": true,
+    "gender": "female",
     "address": [
       {
         "line": [
-          "208 Medical Plaza"
+          "539 Medical Plaza"
         ],
         "city": "Delhi",
         "state": "Delhi",
         "postalCode": "110001",
         "country": "IN"
       }
+    ],
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "+91-78827-50001",
+        "use": "work"
+      },
+      {
+        "system": "email",
+        "value": "isha.malhotra@citycarehospital.com",
+        "use": "work"
+      }
+    ],
+    "qualification": [
+      {
+        "code": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v2-0360",
+              "code": "MD",
+              "display": "Doctor of Medicine"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/qualification-specialty",
+            "valueString": "Pediatrics"
+          }
+        ]
+      }
+    ],
+    "communication": [
+      {
+        "coding": [
+          {
+            "system": "urn:ietf:bcp:47",
+            "code": "en",
+            "display": "English"
+          },
+          {
+            "system": "urn:ietf:bcp:47",
+            "code": "hi",
+            "display": "Hindi"
+          }
+        ]
+      }
     ]
   },
   {
     "resourceType": "Practitioner",
-    "id": "6893b4e6-f9f3-4bd2-b789-b8c387ce0fcd",
+    "id": "247bc194-3e39-4fba-9bc5-c72eabce4121",
     "name": [
       {
         "use": "official",
         "family": "Verma",
         "given": [
-          "Meera"
+          "Varun"
         ],
-        "prefix": []
+        "prefix": [
+          "Dr."
+        ]
       }
     ],
     "identifier": [
       {
         "system": "http://medical-council.example.com",
-        "value": "NURSE-0010"
+        "value": "MC-0029"
       }
     ],
     "active": true,
-    "telecom": [
-      {
-        "system": "phone",
-        "value": "+91-98765-43219",
-        "use": "work"
-      },
-      {
-        "system": "email",
-        "value": "meera.verma@citycarehospital.com",
-        "use": "work"
-      }
-    ],
-    "communication": [
-      {
-        "coding": [
-          {
-            "system": "urn:ietf:bcp:47",
-            "code": "en",
-            "display": "English"
-          },
-          {
-            "system": "urn:ietf:bcp:47",
-            "code": "hi",
-            "display": "Hindi"
-          }
-        ]
-      }
-    ],
-    "gender": "female",
-    "address": [
-      {
-        "line": [
-          "209 Doctor Street"
-        ],
-        "city": "Delhi",
-        "state": "Delhi",
-        "postalCode": "110001",
-        "country": "IN"
-      }
-    ],
-    "qualification": [
-      {
-        "code": {
-          "coding": [
-            {
-              "system": "http://terminology.hl7.org/CodeSystem/v2-0360",
-              "code": "PA",
-              "display": "Physician Assistant"
-            }
-          ]
-        },
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/qualification-specialty",
-            "valueString": "General Practice"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "resourceType": "Practitioner",
-    "id": "6cb11f39-d571-4da5-a484-104262e04993",
-    "name": [
-      {
-        "use": "official",
-        "family": "Nair",
-        "given": [
-          "Lakshmi"
-        ],
-        "prefix": []
-      }
-    ],
-    "identifier": [
-      {
-        "system": "http://medical-council.example.com",
-        "value": "NURSE-0011"
-      }
-    ],
-    "active": true,
-    "telecom": [
-      {
-        "system": "phone",
-        "value": "+91-98765-43220",
-        "use": "work"
-      },
-      {
-        "system": "email",
-        "value": "lakshmi.nair@citycarehospital.com",
-        "use": "work"
-      }
-    ],
-    "communication": [
-      {
-        "coding": [
-          {
-            "system": "urn:ietf:bcp:47",
-            "code": "en",
-            "display": "English"
-          },
-          {
-            "system": "urn:ietf:bcp:47",
-            "code": "hi",
-            "display": "Hindi"
-          }
-        ]
-      }
-    ],
-    "qualification": [
-      {
-        "code": {
-          "coding": [
-            {
-              "system": "http://terminology.hl7.org/CodeSystem/v2-0360",
-              "code": "MD",
-              "display": "Doctor of Medicine"
-            }
-          ]
-        },
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/qualification-specialty",
-            "valueString": "Cardiology"
-          }
-        ]
-      }
-    ],
     "gender": "male",
     "address": [
       {
         "line": [
-          "210 Medical Plaza"
+          "395 Medical Plaza"
         ],
         "city": "Delhi",
         "state": "Delhi",
         "postalCode": "110001",
         "country": "IN"
       }
-    ]
-  },
-  {
-    "resourceType": "Practitioner",
-    "id": "605fef2c-f7c0-48f4-95c4-e8a0864af7e1",
-    "name": [
-      {
-        "use": "official",
-        "family": "Iyer",
-        "given": [
-          "Radha"
-        ],
-        "prefix": []
-      }
     ],
-    "identifier": [
-      {
-        "system": "http://medical-council.example.com",
-        "value": "NURSE-0012"
-      }
-    ],
-    "active": true,
     "telecom": [
       {
         "system": "phone",
-        "value": "+91-98765-43221",
+        "value": "+91-81400-99862",
         "use": "work"
       },
       {
         "system": "email",
-        "value": "radha.iyer@citycarehospital.com",
+        "value": "varun.verma@citycarehospital.com",
         "use": "work"
+      }
+    ],
+    "qualification": [
+      {
+        "code": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v2-0360",
+              "code": "MD",
+              "display": "Doctor of Medicine"
+            }
+          ]
+        },
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/qualification-specialty",
+            "valueString": "Psychiatry"
+          }
+        ]
       }
     ],
     "communication": [
@@ -942,8 +2375,54 @@
           }
         ]
       }
+    ]
+  },
+  {
+    "resourceType": "Practitioner",
+    "id": "25f32b6f-ad36-497a-91d3-38ec36cadca2",
+    "name": [
+      {
+        "use": "official",
+        "family": "Reddy",
+        "given": [
+          "Meera"
+        ],
+        "prefix": [
+          "Dr."
+        ]
+      }
     ],
+    "identifier": [
+      {
+        "system": "http://medical-council.example.com",
+        "value": "MC-0030"
+      }
+    ],
+    "active": true,
     "gender": "female",
+    "address": [
+      {
+        "line": [
+          "521 Medical Plaza"
+        ],
+        "city": "Delhi",
+        "state": "Delhi",
+        "postalCode": "110001",
+        "country": "IN"
+      }
+    ],
+    "telecom": [
+      {
+        "system": "phone",
+        "value": "+91-75701-26372",
+        "use": "work"
+      },
+      {
+        "system": "email",
+        "value": "meera.reddy@citycarehospital.com",
+        "use": "work"
+      }
+    ],
     "qualification": [
       {
         "code": {
@@ -958,20 +2437,25 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/StructureDefinition/qualification-specialty",
-            "valueString": "Cardiology"
+            "valueString": "Gastroenterology"
           }
         ]
       }
     ],
-    "address": [
+    "communication": [
       {
-        "line": [
-          "211 Medical Plaza"
-        ],
-        "city": "Delhi",
-        "state": "Delhi",
-        "postalCode": "110001",
-        "country": "IN"
+        "coding": [
+          {
+            "system": "urn:ietf:bcp:47",
+            "code": "en",
+            "display": "English"
+          },
+          {
+            "system": "urn:ietf:bcp:47",
+            "code": "hi",
+            "display": "Hindi"
+          }
+        ]
       }
     ]
   }

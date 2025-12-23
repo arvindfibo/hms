@@ -7,9 +7,9 @@ import type { OperationOutcome } from '@medplum/fhirtypes';
 import { useMedplum } from '@medplum/react-hooks';
 import type { JSX } from 'react';
 import { useState } from 'react';
+import AppLogo from '../../../assets/AppLogo.avif';
 import { Form } from '../Form/Form';
 import { SubmitButton } from '../Form/SubmitButton';
-import { Logo } from '../Logo/Logo';
 import { getErrorsForInput } from '../utils/outcomes';
 
 export interface NewProjectFormProps {
@@ -36,7 +36,7 @@ export function NewProjectForm(props: NewProjectFormProps): JSX.Element {
       }}
     >
       <Center style={{ flexDirection: 'column' }}>
-        <Logo size={32} />
+        <img src={AppLogo} alt="Logo" style={{ height: 32, width: 32 }} />
         <Title>Create project</Title>
       </Center>
       <Stack gap="xl">
