@@ -18,7 +18,7 @@
   ],
   "scripts": {
     "agent": "ts-node src/main.ts",
-    "build": "npm run clean && tsc && node esbuild.mjs",
+    "build": "node init && npm run clean && tsc && node esbuild.mjs",
     "clean": "rimraf dist",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
