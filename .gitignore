@@ -7,7 +7,6 @@ binary/
 node_modules/
 
 # Dotenv
-.env
 
 .failed
 prettier-fmt.err
@@ -102,3 +101,7 @@ playwright/.cache/
 
 # Cursor
 .cursor/
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
